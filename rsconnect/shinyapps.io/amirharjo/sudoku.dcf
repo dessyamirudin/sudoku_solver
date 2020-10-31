@@ -1,0 +1,10 @@
+name: sudoku
+title:
+username:
+account: amirharjo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3127994
+bundleId: 3799633
+url: https://amirharjo.shinyapps.io/sudoku/
+when: 1604040311.81477
