@@ -120,18 +120,6 @@ shinyServer(function(input, output) {
       }
     })
     
-    # solurion of the problem
-    
-    # solusi awal, kalau input$solve di klik, maka value jadi solusinya
-    # sudoku_solution <- reactive({
-    #   if(input$solve==0)
-    #     return(rep(NA,81) %>% matrix(nrow = 9) %>% as.data.frame())
-    #   
-    #   isolate({
-    #   sudoku_solved = solveSudoku(data_source(),print.it = FALSE)
-    #   })
-    # })
-    
     # solution become data frame with additional data
     data_solve <- reactive({
         input.df = input_problem()
